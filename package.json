@@ -1,0 +1,25 @@
+{
+  "name": "com.maesla.datavisualizationforunity",
+  "displayName": "Data Visualization For Unity",
+  "version": "0.1.0",
+  "description": "Data Visualization For Unity",
+    "dependencies": {
+    "com.unity.burst": "1.6.3"
+  },
+  "keywords": [
+    "Data",
+    "Visualization",
+    "Data Visualization"
+  ],
+    "author": {
+    "name": "Manuel Espino",
+    "url": "https://github.com/Maesla"
+  },
+  "unity": "2020.1",
+  	"samples":[
+	{
+		"displayName": "Data Visualization Samples",
+		"description": "Samples for KDE, Spatial Interpolation and Histogram 2d",
+		"path": "Samples~/Data Visualization Samples"
+	}]
+}
