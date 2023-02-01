@@ -18,15 +18,11 @@ namespace DataVisualization.Debug
 
         public BaseSpatialInterpolation spatialInterpolation;
 
-
         public Dot[] sensors;
-        public Dot[] values;
 
         public HeatmapImplementation heatmap;
 
         public bool isDirty;
-
-        public int[] array;
 
         public FloorTransformation floor;
 
@@ -36,10 +32,6 @@ namespace DataVisualization.Debug
             spatialInterpolation = new SpatialInterpolationByJobs(sensors, settings, p);
             heatmap = new HeatmapImplementation(spatialInterpolation.Grid, gradient, 0f, 45f);
             floor.SetTexture(heatmap.Texture);
-
-
-            int index = 0;
-            array[index++] = 99;
         }
 
         public void Update()
