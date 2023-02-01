@@ -7,7 +7,7 @@ git+https://github.com/Maesla/DataVisualizationForUnity.git?path=/Packages/com.m
 # Description
 Data Visualization for Unity is a package base on python data visualization libraries such matplotlib.
 
-KDE, Spatial Interpolation and Histogram2D implemented.
+Heatmap texture, KDE, Spatial Interpolation and Histogram2D implemented.
 
 The library uses jobs for high performance
 
